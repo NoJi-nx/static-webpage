@@ -1,0 +1,144 @@
+/* Tablet portrait styles */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  /* Homepage */
+  .home-container {
+    flex-direction: row;
+  }
+
+  .home-container iframe {
+    width: 50%;
+    height: 100%;
+  }
+
+  /* Navbar */
+  header {
+    flex-direction: row;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  nav li {
+    width: auto;
+  }
+
+  /* About Me */
+  .about-container {
+    width: 50%;
+  }
+
+  .content {
+    width: 75%;
+  }
+
+  /* Experiences */
+  .experience-container {
+    flex-direction: row;
+  }
+
+  .experiences-table {
+    width: 75%;
+  }
+
+  .experiences-table td {
+    font-size: 16px;
+  }
+
+  /* Skills */
+  .skills-container {
+    flex-direction: row;
+  }
+
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .skill {
+    width: 25%;
+  }
+
+  /* My Work */
+  .work-container {
+    flex-direction: row;
+  }
+
+  .work-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .work-item {
+    width: 50%;
+  }
+
+  .work-item img {
+    width: 100%;
+  }
+}
+/* Tablet landscape styles */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) and (orientation: landscape) {
+  /* Homepage */
+  .home-container {
+    flex-direction: row;
+  }
+
+  .home-container iframe {
+    width: 50%;
+    height: 100%;
+  }
+
+  /* Navbar */
+  header {
+    flex-direction: row;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  nav li {
+    width: auto;
+  }
+
+  /* About Me */
+  .about-container {
+    width: 50%;
+  }
+
+  .content {
+    width: 75%;
+  }
+
+  /* Experiences */
+  .experience-container {
+    flex-direction: row;
+  }
+
+  .experiences-table {
+    width: 75%;
+  }
+
+  .experiences-table td {
+    font-size: 16px;
+  }
+
+  /* Skills */
+  .skills-container {
+    flex-direction: row;
+  }
+
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .skill {
+    width: 25%;
+  }
+}

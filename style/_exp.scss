@@ -1,0 +1,49 @@
+//Experiences sektionen
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+
+
+  /* Tabeller */
+  .experiences-table {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  
+  .experiences-table th,
+  .experiences-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .experiences-table th {
+    background-color: $black;
+    color: $white;
+  }
+  
+  .experiences-table td {
+    font-size: 16px;
+    line-height: 1.5;
+    color: $black;
+  }
+  
+  .experiences-table td ul {
+    margin: 0;
+    padding: 0 0 0 20px;
+  }
+  
+  .experiences-table td li {
+    margin: 5px 0;
+  }
+
+  @media only screen and (max-width: 500px) {
+    
+  }
+
+  @media only screen and (min-width: 500px) and (max-width: 1000px) {
+}

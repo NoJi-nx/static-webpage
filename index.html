@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+  integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+  <link rel="stylesheet" href="./style/styles.css">
+  <!--General Css style with SASS-->
+  <!--Phone Responsive-->
+
+  <title>u01 static website</title>
+</head>
+<body>
+
+  <!--Navbar-->
+  <header>
+
+    <h2 id="logo">N.R</h2>
+
+    <nav>
+<ul>
+      <li><a href="#top" class="header-btn">Home</a></li>
+      <li><a href="#about" class="header-btn">About me</a></li>
+      <li><a href="#experiences" class="header-btn">Experiences</a></li>
+      <li><a href="#skill" class="header-btn">Skills</a></li>
+      <li><a href="#my-work" class="header-btn">Works</a></li>
+      <li><a href="#contact" class="header-btn">Contact</a></li>
+      </ul>
+
+    </nav>
+  </header>
+<!--Navbar ends-->
+
+<!--Homepage starts-->
+
+    <section class="home-container" id="top">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/zecueq-mo4M" title="YouTube video player"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+
+      <h3>Booting up. . . . Hello, World!</h3>
+      <h1>Name: <span>Neji</span></h1>
+      <h3>A <span>Developer</span>, <span>Troublemaker</span>, Future <span>Boss</span></h3>
+      <a href="CV - Nejirwan Ramadan- IT.1.pdf"  class="btn" download>Download CV</a>
+
+
+
+      <img class="wave" src="./img/wave.png" alt="wave-banner">
+
+    </section>
+
+    <!--Homepage ends-->
+
+     <!--About Me page starts-->
+<section class="about-container" id="about">
+
+<h3 id="subtitle-txt">I'm <span class="about-span">Neji</span> and below is all <span class="about-span">About Me</span></h3>
+
+<div class="content">
+<p class="content-txt">Rookie developer, trying to make working progress and reach end results.</p>
+
+<p class="content-txt"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  Hic corrupti sed quisquam impedit nesciunt odit facere esse
+  ipsam dolore eum quia odio suscipit quae animi exercitationem dicta,
+  ipsum quo necessitatibus?
+</p>
+
+<p class="social-icons">
+  <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+  <a href="https://twitter.com/home?lang=sv" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+  <a href="https://www.instagram.com/accounts/login/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+  <a href="https://www.pinterest.ca/" target="_blank"><i class="fa-brands fa-pinterest" ></i></a>
+  <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a>
+</p>
+
+</div>
+</section>
+ <!--About Me page ends-->
+
+
+  <!--Experience page ends-->
+  <section class="experiences-container" id="experiences">
+    <h3 class="subtitle-txt">My <span class="experiences-span">Experiences</span></h3>
+
+    <!-- Table to display experiences -->
+    <table class="experiences-table">
+      <thead>
+        <tr>
+          <th>Company</th>
+          <th>Position</th>
+          <th>Duration</th>
+          <th>Responsibilities</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>XYZ Corporation</td>
+          <td>Software Developer</td>
+          <td>Jan 2020 - Present</td>
+          <td>
+            <ul>
+              <li>Developed and maintained web applications using React and Node.js</li>
+              <li>Implemented responsive design using CSS and Bootstrap</li>
+              <li>Collaborated with cross-functional teams to deliver high-quality products on time</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>ABC Company</td>
+          <td>Intern - Software Developer</td>
+          <td>May 2019 - Aug 2019</td>
+          <td>
+            <ul>
+              <li>Assisted senior developers with coding and debugging tasks</li>
+              <li>Learned and applied various software development methodologies and best practices</li>
+              <li>Participated in code reviews and provided feedback to improve code quality</li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+ <!--Experience page ends-->
+
+
+<!--Skill page starts-->
+ <section class="skill-container" id="skill">
+
+  <h3 class="title-txt">My top<span> Skills</span></h3>
+  <p>Showcasing my talents & knowledge below. </p>
+
+  <div class="skill-content">
+    <div class="single-skill">
+     <div class="marker-icon">
+      <i class="fa-solid fa-code"></i>
+     </div>
+     <h2>Html/CSS</h2>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Hic corrupti sed quisquam impedit nesciunt odit facere esse </p>
+    </div>
+  </div>
+
+  <div class="skill-content">
+    <div class="single-skill">
+     <div class="marker-icon">
+      <i class="fa-brands fa-square-js"></i>
+     </div>
+     <h2>Javascript</h2>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Hic corrupti sed quisquam impedit nesciunt odit facere esse </p>
+    </div>
+  </div>
+
+  <div class="skill-content">
+    <div class="single-skill">
+     <div class="marker-icon">
+      <i class="fa-brands fa-uikit"></i>
+     </div>
+     <h2>UX/UI</h2>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Hic corrupti sed quisquam impedit nesciunt odit facere esse </p>
+    </div>
+  </div>
+
+ </section>
+<!--Skill page ends-->
+
+<!--Work page starts-->
+<section id="my-work">
+  <h3 class="subtitle-txt">My<span class="experiences-span"> Works</span></h3>
+  <div class="work-grid">
+    <div class="work-item">
+      <img src="./img/work-1.jfif" alt="Work 1">
+      <h2>Work 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+    </div>
+    <div class="work-item">
+      <img src="./img/work-2.webp" alt="Work 2">
+      <h2>Work 2</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+    </div>
+    <div class="work-item">
+      <img src="./img/work-3.jpg" alt="Work 3">
+      <h2>Work 3</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+    </div>
+    <div class="work-item">
+      <img src="./img/work-4.jfif" alt="Work 4">
+      <h2>Work 4</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+    </div>
+  </div>
+</section>
+<!--Work page ends-->
+
+
+<!--Contact page starts-->
+<section class="contact-container" id="contact">
+
+  <h3 class="title-txt"><span>Contact</span> Me for Work/Network</h3>
+  <p>Just type in here and I'll get back to you</p>
+
+  <div class="contact-content">
+    <div class="single-contact">
+      <label for="name">Name</label><input type="text" id="name" placeholder="Enter Your Name...">
+      <label for="E-mail">E-mail</label><input type="email" id="E-mail" placeholder="Enter Your Email...">
+      <label for="query">Details</label><textarea name="query" id="query" cols="30" rows="3" placeholder="Enter your details...."></textarea>
+      <input type="submit" value="submit">
+    </div>
+  </div>
+</section>
+<!--Contact page ends-->
+
+<!--Footer-->
+<footer>
+  <p>Reserved by <a href="">N.R</a></p>
+
+  <p class="social-icons2">
+    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://twitter.com/home?lang=sv" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+    <a href="https://www.instagram.com/accounts/login/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://www.pinterest.ca/" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
+    <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a>
+  </p>
+</footer>
+<!--Footer-->
+</body>
+</html>
+
+
+
+
+
+
+
+

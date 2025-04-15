@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* Add some basic styling for the about section */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+  background-color: #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+/* Style the subtitle text */
+#subtitle-txt {
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin: 30px 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Style the span elements within the subtitle text */
+.about-span {
+  color: #fa3838;
+}
+
+/* Style the content text */
+.content {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+  padding: 30px;
+  background-color: ¤;
+  border-radius: 0px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content-txt {
+  font-size: 18px;
+  line-height: 1.5;
+  color: ¤black;
+  margin-bottom: 20px;
+}
+
+/* Style the social icons */
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.social-icons a {
+  font-size: 36px;
+  color: ¤black;
+  transition: all 0.3s;
+}
+
+.social-icons a:hover {
+  color: ¤red;
+  transform: scale(1.2);
+}

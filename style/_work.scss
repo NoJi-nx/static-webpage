@@ -1,0 +1,98 @@
+/* Work sektionen */
+#my-work {
+    width: 80%;
+    max-width: 1200px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  /* Grid */
+  .work-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  /* Varje innehållet */
+  .work-item {
+    width: 40%;
+    margin: 20px;
+    height: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  /* Hover när musen pekar*/
+  .work-item:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Bilderna */
+  .work-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .works-container h3 {
+        font-size: 2rem;
+      }
+      .works-container .works-card {
+        width: 90%;
+        margin: 15px auto;
+      }
+      .works-container .works-card img {
+        width: 100%;
+        height: 300px;
+      }
+      .works-container .works-card h4 {
+        font-size: 1.5rem;
+      }
+      .works-container .works-card p {
+        font-size: 14px;
+      }
+    
+  }
+
+  @media only screen and (min-width: 500px) and (max-width: 1000px) {
+    
+    .works-container h3 {
+        font-size: 2.5rem;
+      }
+      .works-container .works-card {
+        width: 80%;
+        margin: 20px auto;
+      }
+      .works-container .works-card img {
+        width: 100%;
+        height: 350px;
+      }
+      .works-container .works-card h4 {
+        font-size: 1.75rem;
+      }
+  
+  }
+
+  @media only screen and (min-width: 1000px) { 
+    .works-container h3 {
+        font-size: 3rem;
+      }
+      .works-container .works-card {
+        width: 70%;
+        margin: 30px auto;
+      }
+      .works-container .works-card img {
+        width: 100%;
+        height: 400px;
+      }
+      .works-container .works-card h4 {
+        font-size: 2rem;
+      }
+      .works-container .works-card p {
+        font-size: 18px;
+      }
+    
+  }

@@ -1,0 +1,974 @@
+@charset "UTF-8";
+/*Home sidan*/
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  color: #000;
+}
+
+/*Videon*/
+.home-container iframe {
+  width: 100%;
+  max-width: 560px;
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  margin-top: 7rem;
+}
+
+.home-container h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.home-container h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.home-container h3 span {
+  color: rgb(250, 56, 56);
+}
+
+.home-container .btn {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  background-color: rgb(250, 56, 56);
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.home-container .btn:hover {
+  background-color: #fff;
+  color: rgb(250, 56, 56);
+  border: 2px solid rgb(250, 56, 56);
+}
+
+.home-container .wave {
+  width: 100%;
+  height: 38%;
+}
+
+@media only screen and (max-width: 500px) {
+  .home-container h1 {
+    font-size: 2rem;
+  }
+  .home-container h3 {
+    font-size: 1.25rem;
+  }
+  .home-container .btn {
+    font-size: 1.25rem;
+    padding: 0.75rem 1.5rem;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 1000px) {
+  .home-container h1 {
+    font-size: 2.5rem;
+  }
+  .home-container h3 {
+    font-size: 1.5rem;
+  }
+  .home-container .btn {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .home-container h1 {
+    font-size: 3rem;
+  }
+  .home-container h3 {
+    font-size: 2rem;
+  }
+  .home-container .btn {
+    font-size: 2rem;
+    padding: 1.5rem 3rem;
+  }
+}
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0;
+}
+
+/* Tabeller */
+.experiences-table {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.experiences-table th,
+.experiences-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.experiences-table th {
+  background-color: #000;
+  color: #fff;
+}
+
+.experiences-table td {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000;
+}
+
+.experiences-table td ul {
+  margin: 0;
+  padding: 0 0 0 20px;
+}
+
+.experiences-table td li {
+  margin: 5px 0;
+}
+
+/* About me sidan sektionen */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+  background-color: rgb(51, 51, 51);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+/* Titeln på sektionen */
+#subtitle-txt {
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin: 30px 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Markerade texten */
+.about-span {
+  color: rgb(250, 56, 56);
+}
+
+/* Fönstret & Texten */
+.content {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 0px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content-txt {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+/* Ikoner */
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.social-icons a {
+  font-size: 36px;
+  color: #000;
+  transition: all 0.3s;
+}
+
+.social-icons a:hover {
+  color: rgb(250, 56, 56);
+  transform: scale(1.2);
+}
+
+@media only screen and (max-width: 500px) {
+  .about-container h3 {
+    font-size: 2rem;
+  }
+  .about-container .content {
+    padding: 15px;
+  }
+  .about-container .content-txt {
+    font-size: 14px;
+  }
+  .social-icons a {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 1000px) {
+  .about-container h3 {
+    font-size: 2.5rem;
+  }
+  .about-container .content {
+    padding: 20px;
+  }
+  .about-container .content-txt {
+    font-size: 16px;
+  }
+  .social-icons a {
+    font-size: 2rem;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .about-container h3 {
+    font-size: 3rem;
+  }
+  .about-container .content {
+    padding: 30px;
+  }
+  .about-container .content-txt {
+    font-size: 18px;
+  }
+  .social-icons a {
+    font-size: 2.5rem;
+  }
+}
+/* Skill sektionen */
+.skill-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0;
+  background-color: #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  color: #fff;
+}
+
+/* Beskrivningen */
+.skill-container p {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0;
+}
+
+/* Innehållet  */
+.skill-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+
+/* Individuellt  */
+.single-skill {
+  width: 30%;
+  text-align: center;
+  margin: 10px;
+}
+
+/* Ikonet */
+.marker-icon {
+  font-size: 48px;
+  color: rgb(250, 56, 56);
+  margin-bottom: 15px;
+}
+
+/* Skill titeln */
+.single-skill h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+}
+
+/* Skill beskrivningen */
+.single-skill p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  margin: 15px 0 0;
+}
+
+@media only screen and (max-width: 500px) {
+  .skills-container h3 {
+    font-size: 2rem;
+  }
+  .skills-container .skills-table {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 1000px) {
+  .skills-container h3 {
+    font-size: 2.5rem;
+  }
+  .skills-container .skills-table {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .skills-container h3 {
+    font-size: 3rem;
+  }
+  .skills-container .skills-table {
+    font-size: 18px;
+  }
+}
+/* Work sektionen */
+#my-work {
+  width: 80%;
+  max-width: 1200px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+/* Grid */
+.work-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Varje innehållet */
+.work-item {
+  width: 40%;
+  margin: 20px;
+  height: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+/* Hover när musen pekar*/
+.work-item:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Bilderna */
+.work-item img {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 500px) {
+  .works-container h3 {
+    font-size: 2rem;
+  }
+  .works-container .works-card {
+    width: 90%;
+    margin: 15px auto;
+  }
+  .works-container .works-card img {
+    width: 100%;
+    height: 300px;
+  }
+  .works-container .works-card h4 {
+    font-size: 1.5rem;
+  }
+  .works-container .works-card p {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 1000px) {
+  .works-container h3 {
+    font-size: 2.5rem;
+  }
+  .works-container .works-card {
+    width: 80%;
+    margin: 20px auto;
+  }
+  .works-container .works-card img {
+    width: 100%;
+    height: 350px;
+  }
+  .works-container .works-card h4 {
+    font-size: 1.75rem;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .works-container h3 {
+    font-size: 3rem;
+  }
+  .works-container .works-card {
+    width: 70%;
+    margin: 30px auto;
+  }
+  .works-container .works-card img {
+    width: 100%;
+    height: 400px;
+  }
+  .works-container .works-card h4 {
+    font-size: 2rem;
+  }
+  .works-container .works-card p {
+    font-size: 18px;
+  }
+}
+/* Contact section */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(51, 51, 51);
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 0;
+}
+
+/* Beskrivning */
+.contact-container p {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0;
+}
+
+/* Formulär */
+.contact-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+
+/* Style the single contact div */
+.single-contact {
+  width: 70%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Namnuppgifter */
+.single-contact label {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  margin: 10px 0;
+}
+
+/* Inmatningne*/
+.single-contact input[type=text],
+.single-contact input[type=email],
+.single-contact textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin: 8px 0;
+  resize: none;
+}
+
+/* Knappen */
+.single-contact input[type=submit] {
+  width: 100%;
+  background-color: rgb(250, 56, 56);
+  color: #000;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Hover på knappen */
+.single-contact input[type=submit]:hover {
+  background-color: rgb(253, 125, 125);
+}
+
+@media only screen and (max-width: 500px) {
+  .contact-container h3 {
+    font-size: 2rem;
+  }
+  .contact-container .form-container {
+    width: 90%;
+    max-width: 400px;
+  }
+  .contact-container .form-container input,
+.contact-container .form-container textarea {
+    font-size: 14px;
+    padding: 10px;
+  }
+  .contact-container .form-container label {
+    font-size: 14px;
+  }
+  .contact-container .form-container .btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 1000px) {
+  .contact-container h3 {
+    font-size: 2.5rem;
+  }
+  .contact-container .form-container {
+    width: 80%;
+    max-width: 500px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .contact-container h3 {
+    font-size: 3rem;
+  }
+  .contact-container .form-container {
+    width: 70%;
+    max-width: 600px;
+  }
+  .contact-container .form-container input,
+.contact-container .form-container textarea {
+    font-size: 18px;
+    padding: 15px;
+  }
+  .contact-container .form-container label {
+    font-size: 18px;
+  }
+  .contact-container .form-container .btn {
+    font-size: 18px;
+    padding: 15px 30px;
+  }
+}
+/* iPhone portrait styles */
+@media only screen and (min-width: 320px) and (max-width: 568px) and (orientation: portrait) {
+  /* Homepage */
+  .home-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .home-container iframe {
+    width: 100%;
+    height: 50vh;
+  }
+  /* Navbar */
+  header {
+    flex-direction: column;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  nav li {
+    width: 100%;
+  }
+  /* About Me */
+  .about-container {
+    width: 100%;
+  }
+  .content {
+    width: 100%;
+  }
+  /* Experiences */
+  .experience-container {
+    flex-direction: column;
+  }
+  .experiences-table {
+    width: 100%;
+  }
+  .experiences-table td {
+    font-size: 14px;
+  }
+  /* Skills */
+  .skills-container {
+    flex-direction: column;
+  }
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .skill {
+    width: 50%;
+  }
+  .work-container {
+    flex-direction: column;
+  }
+  .work-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .work-item {
+    width: 100%;
+  }
+  .work-item img {
+    width: 100%;
+  }
+}
+/* iPhone landscape styles */
+@media only screen and (min-width: 569px) and (max-width: 767px) and (orientation: landscape) {
+  /* Homepage */
+  .home-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .home-container iframe {
+    width: 100%;
+    height: 50vh;
+  }
+  /* Navbar */
+  header {
+    flex-direction: row;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+  }
+  nav li {
+    width: auto;
+  }
+  /* About Me */
+  .about-container {
+    width: 100%;
+  }
+  .content {
+    width: 100%;
+  }
+  /* Experiences */
+  .experience-container {
+    flex-direction: row;
+  }
+  .experiences-table {
+    width: 75%;
+  }
+  .experiences-table td {
+    font-size: 16px;
+  }
+  /* Skills */
+  .skills-container {
+    flex-direction: row;
+  }
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .skill {
+    width: 25%;
+  }
+  /* My Work */
+  .work-container {
+    flex-direction: row;
+  }
+  .work-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .work-item {
+    width: 50%;
+  }
+  .work-item img {
+    width: 100%;
+  }
+}
+/* Mobile styles */
+@media only screen and (max-width: 600px) {
+  /* Toggle button */
+  /* Mobile navigation */
+  nav ul {
+    display: none;
+  }
+  nav li {
+    width: 100%;
+  }
+  nav li a {
+    display: block;
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  .menu-toggle[aria-expanded=true] + nav ul {
+    display: block;
+  }
+  /* Hide navigation links on small screens */
+  nav li {
+    display: none;
+  }
+  .menu-toggle[aria-expanded=true] + nav li {
+    display: block;
+  }
+}
+/* Tablet portrait styles */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  /* Homepage */
+  .home-container iframe {
+    width: 120%;
+    height: 24%;
+  }
+  /* Navbar */
+  header {
+    flex-direction: row;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+  }
+  nav li {
+    width: auto;
+  }
+  /* About Me */
+  .about-container {
+    width: 100%;
+  }
+  .content {
+    width: 75%;
+  }
+  /* Experiences */
+  .experience-container {
+    flex-direction: row;
+  }
+  .experiences-table {
+    width: 75%;
+  }
+  .experiences-table td {
+    font-size: 16px;
+  }
+  /* Skills */
+  .skills-container {
+    flex-direction: row;
+  }
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .skill {
+    width: 25%;
+  }
+  /* My Work */
+  .work-container {
+    flex-direction: row;
+  }
+  .work-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .work-item {
+    width: 50%;
+  }
+  .work-item img {
+    width: 100%;
+  }
+}
+/* Tablet landscape styles */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) and (orientation: landscape) {
+  /* Homepage */
+  .home-container {
+    flex-direction: row;
+  }
+  .home-container iframe {
+    width: 50%;
+    height: 100%;
+  }
+  /* Navbar */
+  header {
+    flex-direction: row;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+  }
+  nav li {
+    width: auto;
+  }
+  /* About Me */
+  .about-container {
+    width: 50%;
+  }
+  .content {
+    width: 75%;
+  }
+  /* Experiences */
+  .experience-container {
+    flex-direction: row;
+  }
+  .experiences-table {
+    width: 75%;
+  }
+  .experiences-table td {
+    font-size: 16px;
+  }
+  /* Skills */
+  .skills-container {
+    flex-direction: row;
+  }
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .skill {
+    width: 25%;
+  }
+}
+/*Globala styles*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*Titel text för about, contact och skill sektionen */
+.title-txt {
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  margin: 30px 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Markerad röd färg för skill, contact och about sektionen */
+.title-txt span {
+  color: rgb(250, 56, 56);
+}
+
+/*Titeln på  work och experience sektionen*/
+.subtitle-txt {
+  font-size: 32px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  margin: 30px 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Markerad röd text för work och experience sektionen */
+.experiences-span {
+  color: rgb(250, 56, 56);
+}
+
+/*Navbaren*/
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 6rem;
+  background-color: #000;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  position: fixed;
+  z-index: 1;
+}
+
+header #logo {
+  font-family: "Lobster", cursive;
+  font-size: 3rem;
+  margin: 0 2rem 0 1rem;
+  color: rgb(250, 56, 56);
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+header nav ul li {
+  margin: 0 1.5rem;
+  height: 100%;
+}
+
+header nav ul li a.header-btn {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header nav ul li a.header-btn:hover {
+  color: rgb(250, 56, 56);
+}
+
+/*Navbaren slut*/
+/* Footern */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  padding: 30px;
+}
+
+/* länkerna */
+footer a {
+  color: rgb(250, 56, 56);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Ikoner visar */
+.social-icons2 {
+  display: flex;
+}
+
+/* Individuellt style ikon */
+.social-icons2 a {
+  margin: 0 10px;
+  font-size: 30px;
+  color: rgb(250, 56, 56);
+}
+
+/* hover när man pekar pilen mot ikonerna */
+.social-icons2 a:hover {
+  color: rgb(253, 125, 125);
+}
+
+@media only screen and (max-width: 500px) {
+  header {
+    flex-direction: column;
+  }
+  #logo {
+    margin: 10px 0;
+  }
+  nav {
+    margin: 20px 0;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  nav li {
+    margin: 10px 0;
+  }
+  nav a {
+    font-size: 14px;
+    padding: 10px;
+  }
+}/*# sourceMappingURL=styles.css.map */

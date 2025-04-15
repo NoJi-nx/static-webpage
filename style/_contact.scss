@@ -1,0 +1,130 @@
+/* Contact section */
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $background;
+    color: $white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0;
+  }
+  
+  
+  /* Beskrivning */
+  .contact-container p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0;
+  }
+  
+  /* Formulär */
+  .contact-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+  }
+  
+  /* Style the single contact div */
+  .single-contact {
+    width: 70%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  /* Namnuppgifter */
+  .single-contact label {
+    font-size: 18px;
+    font-weight: bold;
+    color: $white;
+    margin: 10px 0;
+  }
+  
+  /* Inmatningne*/
+  .single-contact input[type="text"],
+  .single-contact input[type="email"],
+  .single-contact textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 8px 0;
+    resize: none;
+  }
+  
+  /* Knappen */
+  .single-contact input[type="submit"] {
+    width: 100%;
+    background-color: $red;
+    color: $black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Hover på knappen */
+  .single-contact input[type="submit"]:hover {
+    background-color: rgb(253, 125, 125);
+  }
+
+  @media only screen and (max-width: 500px) {
+    .contact-container h3 {
+        font-size: 2rem;
+      }
+      .contact-container .form-container {
+        width: 90%;
+        max-width: 400px;
+      }
+      .contact-container .form-container input,
+      .contact-container .form-container textarea {
+        font-size: 14px;
+        padding: 10px;
+      }
+      .contact-container .form-container label {
+        font-size: 14px;
+      }
+      .contact-container .form-container .btn {
+        font-size: 14px;
+        padding: 10px 20px;
+      }
+    
+  }
+
+  @media only screen and (min-width: 500px) and (max-width: 1000px) {
+    .contact-container h3 {
+        font-size: 2.5rem;
+      }
+      .contact-container .form-container {
+        width: 80%;
+        max-width: 500px;
+      }
+}
+
+@media only screen and (min-width: 1000px) {
+    .contact-container h3 {
+        font-size: 3rem;
+      }
+      .contact-container .form-container {
+        width: 70%;
+        max-width: 600px;
+      }
+      .contact-container .form-container input,
+      .contact-container .form-container textarea {
+        font-size: 18px;
+        padding: 15px;
+      }
+      .contact-container .form-container label {
+        font-size: 18px;
+      }
+      .contact-container .form-container .btn {
+        font-size: 18px;
+        padding: 15px 30px;
+      }
+ }
